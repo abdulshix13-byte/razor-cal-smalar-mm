@@ -1,0 +1,15 @@
+Belge, HTTP GET ve POST farklarını anlatır. GET veriyi adres çubuğunda taşırken (veri çekme), POST veriyi arka planda gizli taşır (veri gönderme/kaydetme). Razor Pages'te bu işlemler OnGet ve OnPost metotlarıyla yönetilir.
+
+
+
+GET/POST Farkı:
+
+GET: Veri URL'de görünür, hızlıdır, veri çekmek içindir.
+
+POST: Veri gizlidir, güvenlidir, veri kaydetmek içindir.
+
+Login Sistemi: POST kullanılmalı. Şifrelerin adres çubuğunda görünmemesi (güvenlik) için zorunludur.
+
+Query String: URL sonuna eklenen ?id=1 gibi veri taşıyan parametrelerdir.
+
+DevTools: Tarayıcıda F12 -> Network sekmesinden isteğin metodunu ve gönderilen veriyi görebilirsiniz.
