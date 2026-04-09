@@ -1,0 +1,16 @@
+Client nedir?
+Kullanıcının kullandığı cihaz veya uygulamadır. (örneğin tarayıcı) Sunucuya istek gönderir ve gelen veriyi gösterir.
+
+Server nedir?
+İstekleri karşılayan bilgisayardır. Client’tan gelen isteğe göre veri gönderir (örneğin web sitesi dosyaları).
+
+HTTP nedir?
+Client ile server arasında veri alışverişini sağlayan iletişim protokolüdür.
+
+Statik ve dinamik site farkı nedir?
+
+Statik site: İçeriği sabittir, herkese aynı görünür.
+Dinamik site: İçerik kullanıcıya veya duruma göre değişir (örneğin giriş yapan kullanıcıya özel içerik).
+
+DevTools’ta Network sekmesi ne işe yarar?
+Tarayıcının yaptığı internet isteklerini gösterir. Hangi dosyalar yüklenmiş, ne kadar sürede gelmiş ve hata var mı gibi bilgileri görmemizi sağlar.
