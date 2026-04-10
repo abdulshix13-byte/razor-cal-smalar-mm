@@ -1,0 +1,22 @@
+﻿@page
+@model razor2WebApplication2.Pages.OdevModel
+
+<h2>Yaş Kontrol Uygulaması</h2>
+
+<form method="post">
+    <div style="margin-bottom: 10px;">
+        <label>Yaşınızı Girin:</label>
+        <input asp-for="Yas" type="number" placeholder="Örn: 25" />
+    </div>
+    <button type="submit">Kontrol Et</button>
+</form>
+
+@if (Model.HataMesaji != null)
+{
+    <h3 style="color: red;">@Model.HataMesaji</h3>
+}
+
+@if (Model.Mesaj != null)
+{
+    <h3 style="color: blue;">Sonuç: @Model.Mesaj</h3>
+}
