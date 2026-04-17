@@ -1,0 +1,27 @@
+﻿@page
+@model WebApplication1.Pages.PrivacyModel
+@{
+    ViewData["Title"] = "Gizlilik";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.GirisYaptiMi)
+{
+    <p>Sisteme giriş yapıldı.</p>
+}
+else
+{
+    <p>Giriş yapılmadı.</p>
+}
+
+<hr />
+
+<ul>
+    @foreach (var isim in Model.Isimler)
+    {
+        <li>@isim</li>
+    }
+</ul>
+
+<p>Toplam kayıt: @Model.Isimler.Count</p>
